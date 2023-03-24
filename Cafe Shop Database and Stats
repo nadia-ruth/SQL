@@ -8,6 +8,14 @@ INSERT INTO Cafe VALUES
 (3, "Black Coffee", 3.50, 145, 4.6),
 (4, "Strawberry Lemonade Refresher", 5, 110, 4.9),
 (5, "Matcha Hot Chocolate", 4.50, 130, 5)
+(6, "Strawberry Matcha Latte", 5.50, 135, 5),
+(7, "Caramel Frappacino", 6.45, 113, 4.3),
+(8, "Hot Tea", 2.25, 110, 4.8),
+(9, "Hot Cider", 3.25, 100, 5),
+(10, "Breakfast Sandwich", 6.25, 107, 4.8),
+(11, "Savory Mini Pancakes", 4.25, 110, 4.7),
+(12, "Bagels w/ Cream Cheese", 3.75, 90, 4.3),
+(13, "London Fog", 5.25, 80, 4.5)
 ;
 
 --display the database in table form
