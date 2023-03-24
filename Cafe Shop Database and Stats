@@ -1,0 +1,21 @@
+--Create a cafe shop database
+CREATE TABLE Cafe (id INTEGER PRIMARY KEY, name TEXT, price NUMERIC, daily_orders INTEGER, rating NUMERIC);
+
+
+INSERT INTO Cafe VALUES
+(1, "Chai Latte w/ Milk", 5.50, 150, 4.5),
+(2, "Lavender Matcha Latte", 6.50, 112, 4.7),
+(3, "Black Coffee", 3.50, 145, 4.6),
+(4, "Strawberry Lemonade Refresher", 5, 110, 4.9),
+(5, "Matcha Hot Chocolate", 4.50, 130, 5)
+;
+
+--display the database in table form
+SELECT * FROM Cafe;
+
+--display the average rating
+SELECT AVG(rating) FROM Cafe;
+
+--display the database ordered by price
+SELECT * FROM Cafe
+ORDER BY price desc;
